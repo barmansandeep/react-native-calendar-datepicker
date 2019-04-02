@@ -124,7 +124,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   disabledText: {
-    borderColor: 'grey',
+    borderLeftColor: 'grey',
+    borderRightColor: 'grey',
+    borderTopColor: 'grey',
+    borderBottomColor: 'grey',
+
     color: 'grey',
   },
   monthText: {
